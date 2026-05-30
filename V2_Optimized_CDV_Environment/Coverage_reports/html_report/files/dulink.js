@@ -1,0 +1,2 @@
+var g_data = {"18":["work.APB",95.46,1],"1":["work.APB_If",71.00,1],"7":["work.apb_adapter",38.99,1],"4":["work.apb_reg_block_pkg",33.58,1],"6":["work.apb_reg_sequences_pkg",24.52,1],"3":["work.apb_regs_pkg",44.85,1],"5":["work.apb_sequence_item_pkg",6.06,1],"12":["work.my_agent_pkg",65.90,1],"10":["work.my_driver_pkg",71.42,1],"13":["work.my_env_pkg",58.75,1],"9":["work.my_monitor_pkg",81.90,1],"8":["work.my_scoreboard_pkg",63.42,1],"11":["work.my_sequencer_pkg",58.33,1],"14":["work.my_test_pkg",64.02,1],"17":["work.top",100.00,1]};
+processDuLinks(g_data);

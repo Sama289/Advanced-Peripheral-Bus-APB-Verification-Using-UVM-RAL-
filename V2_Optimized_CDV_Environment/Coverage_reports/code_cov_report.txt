@@ -1,0 +1,2461 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/APB_vif
+=== Design Unit: work.APB_If
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        200       142        58    71.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/APB_vif --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                        paddr[0-1]           0           0        0.00 
+                                       paddr[5-31]           0           0        0.00 
+
+Total Node Count     =        100 
+Toggled Node Count   =         71 
+Untoggled Node Count =         29 
+
+Toggle Coverage      =      71.00% (142 of 200 bins)
+
+=================================================================================
+=== Instance: /top/DUT
+=== Design Unit: work.APB
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        14        13         1    92.85%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/DUT
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/Design/APB.sv
+------------------------------------IF Branch------------------------------------
+    27                                     10405     Count coming in to IF
+    37              1                       1479     
+    47              1                       2965     
+                                            5959     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    39                                      1479     Count coming in to CASE
+    40              1                        283     
+    41              1                        299     
+    42              1                        299     
+    43              1                        300     
+    44              1                        298     
+                                         ***0***     All False Count
+Branch totals: 5 hits of 6 branches = 83.33%
+
+------------------------------------CASE Branch------------------------------------
+    49                                      2965     Count coming in to CASE
+    50              1                        574     
+    51              1                        599     
+    52              1                        597     
+    53              1                        597     
+    54              1                        598     
+Branch totals: 5 hits of 5 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         6         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /top/DUT --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/Design/APB.sv
+----------------Focused Condition View-------------------
+Line       37 Item    1  ((psel && penable) && pwrite)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       47 Item    1  ((psel && penable) && ~pwrite)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11        11         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/DUT --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/Design/APB.sv
+    25              1                      10405     
+    40              1                        283     
+    41              1                        299     
+    42              1                        299     
+    43              1                        300     
+    44              1                        298     
+    50              1                        574     
+    51              1                        599     
+    52              1                        597     
+    53              1                        597     
+    54              1                        598     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        528       470        58    89.01%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/DUT --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                        paddr[0-1]           0           0        0.00 
+                                       paddr[5-31]           0           0        0.00 
+
+Total Node Count     =        264 
+Toggled Node Count   =        235 
+Untoggled Node Count =         29 
+
+Toggle Coverage      =      89.01% (470 of 528 bins)
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         5         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/NO_CHANGE/top.sv
+    23              1                      20902     
+    23              2                      20901     
+    27              1                          1     
+    28              1                          1     
+    29              1                          1     
+
+=================================================================================
+=== Instance: /apb_regs_pkg
+=== Design Unit: work.apb_regs_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        70        20        50    28.57%
+
+================================Branch Details================================
+
+Branch Coverage for instance /apb_regs_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_regs_pkg.sv
+------------------------------------IF Branch------------------------------------
+    13                                   ***0***     Count coming in to IF
+    13              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    13                                         1     Count coming in to IF
+    13              2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    13                                   ***0***     Count coming in to IF
+    13              3                    ***0***     
+    13              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    13                                         1     Count coming in to IF
+    13              5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    13                                   ***0***     Count coming in to IF
+    13              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    124                                      583     Count coming in to IF
+    124             1                        583     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    142                                        1     Count coming in to IF
+    142             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    191                                  ***0***     Count coming in to IF
+    191             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    191                                        1     Count coming in to IF
+    191             2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    191                                  ***0***     Count coming in to IF
+    191             3                    ***0***     
+    191             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    191                                        1     Count coming in to IF
+    191             5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    191                                  ***0***     Count coming in to IF
+    191             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    259                                      599     Count coming in to IF
+    259             1                        599     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    272                                        1     Count coming in to IF
+    272             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    307                                  ***0***     Count coming in to IF
+    307             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    307                                        1     Count coming in to IF
+    307             2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    307                                  ***0***     Count coming in to IF
+    307             3                    ***0***     
+    307             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    307                                        1     Count coming in to IF
+    307             5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    307                                  ***0***     Count coming in to IF
+    307             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    375                                      599     Count coming in to IF
+    375             1                        599     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    388                                        1     Count coming in to IF
+    388             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    423                                  ***0***     Count coming in to IF
+    423             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    423                                        1     Count coming in to IF
+    423             2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    423                                  ***0***     Count coming in to IF
+    423             3                    ***0***     
+    423             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    423                                        1     Count coming in to IF
+    423             5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    423                                  ***0***     Count coming in to IF
+    423             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    490                                      600     Count coming in to IF
+    490             1                        600     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    504                                        1     Count coming in to IF
+    504             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    539                                  ***0***     Count coming in to IF
+    539             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    539                                        1     Count coming in to IF
+    539             2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    539                                  ***0***     Count coming in to IF
+    539             3                    ***0***     
+    539             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    539                                        1     Count coming in to IF
+    539             5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    539                                  ***0***     Count coming in to IF
+    539             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    605                                      598     Count coming in to IF
+    605             1                        598     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    619                                        1     Count coming in to IF
+    619             1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      10         0        10     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /apb_regs_pkg --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_regs_pkg.sv
+----------------Focused Condition View-------------------
+Line       13 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       13 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       191 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       191 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       307 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       307 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       423 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       423 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       539 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       539 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      88        48        40    54.54%
+
+================================Statement Details================================
+
+Statement Coverage for instance /apb_regs_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_regs_pkg.sv
+    13              1                    ***0***     
+    13              2                    ***0***     
+    13              3                    ***0***     
+    13              4                    ***0***     
+    13              5                    ***0***     
+    13              6                          2     
+    13              7                    ***0***     
+    13              8                    ***0***     
+    13              9                          1     
+    13             10                    ***0***     
+    122             1                        583     
+    125             1                        583     
+    140             1                          1     
+    143             1                          1     
+    157             1                          1     
+    158             1                          1     
+    159             1                          1     
+    160             1                          1     
+    161             1                          1     
+    164             1                          1     
+    165             1                          1     
+    166             1                          1     
+    167             1                          1     
+    168             1                          1     
+    191             1                    ***0***     
+    191             2                    ***0***     
+    191             3                    ***0***     
+    191             4                    ***0***     
+    191             5                    ***0***     
+    191             6                          2     
+    191             7                    ***0***     
+    191             8                    ***0***     
+    191             9                          1     
+    191            10                    ***0***     
+    258             1                        599     
+    260             1                        599     
+    270             1                          1     
+    273             1                          1     
+    283             1                          1     
+    285             1                          1     
+    307             1                    ***0***     
+    307             2                    ***0***     
+    307             3                    ***0***     
+    307             4                    ***0***     
+    307             5                    ***0***     
+    307             6                          2     
+    307             7                    ***0***     
+    307             8                    ***0***     
+    307             9                          1     
+    307            10                    ***0***     
+    374             1                        599     
+    376             1                        599     
+    386             1                          1     
+    389             1                          1     
+    399             1                          1     
+    401             1                          1     
+    423             1                    ***0***     
+    423             2                    ***0***     
+    423             3                    ***0***     
+    423             4                    ***0***     
+    423             5                    ***0***     
+    423             6                          2     
+    423             7                    ***0***     
+    423             8                    ***0***     
+    423             9                          1     
+    423            10                    ***0***     
+    489             1                        600     
+    491             1                        600     
+    502             1                          1     
+    505             1                          1     
+    515             1                          1     
+    517             1                          1     
+    539             1                    ***0***     
+    539             2                    ***0***     
+    539             3                    ***0***     
+    539             4                    ***0***     
+    539             5                    ***0***     
+    539             6                          2     
+    539             7                    ***0***     
+    539             8                    ***0***     
+    539             9                          1     
+    539            10                    ***0***     
+    604             1                        598     
+    606             1                        598     
+    617             1                          1     
+    620             1                          1     
+    630             1                          1     
+    632             1                          1     
+
+=================================================================================
+=== Instance: /apb_reg_block_pkg
+=== Design Unit: work.apb_reg_block_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12         3         9    25.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /apb_reg_block_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_reg_block_pkg.sv
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                         1     Count coming in to IF
+    11              2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              3                    ***0***     
+    11              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                         1     Count coming in to IF
+    11              5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    11                                   ***0***     Count coming in to IF
+    11              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    70                                         1     Count coming in to IF
+    70              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /apb_reg_block_pkg --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_reg_block_pkg.sv
+----------------Focused Condition View-------------------
+Line       11 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       11 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      33        25         8    75.75%
+
+================================Statement Details================================
+
+Statement Coverage for instance /apb_reg_block_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_reg_block_pkg.sv
+    11              1                    ***0***     
+    11              2                    ***0***     
+    11              3                    ***0***     
+    11              4                    ***0***     
+    11              5                    ***0***     
+    11              6                          1     
+    11              7                    ***0***     
+    11              8                    ***0***     
+    11              9                          1     
+    11             10                    ***0***     
+    24              1                          1     
+    33              1                          1     
+    34              1                          1     
+    35              1                          1     
+    36              1                          1     
+    37              1                          1     
+    40              1                          1     
+    41              1                          1     
+    42              1                          1     
+    43              1                          1     
+    44              1                          1     
+    47              1                          1     
+    48              1                          1     
+    49              1                          1     
+    50              1                          1     
+    51              1                          1     
+    55              1                          1     
+    59              1                          1     
+    60              1                          1     
+    61              1                          1     
+    62              1                          1     
+    63              1                          1     
+    70              1                          1     
+
+=================================================================================
+=== Instance: /apb_sequence_item_pkg
+=== Design Unit: work.apb_sequence_item_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /apb_sequence_item_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_sequence_item.sv
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               3                    ***0***     
+    8               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    8                                    ***0***     Count coming in to IF
+    8               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /apb_sequence_item_pkg --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_sequence_item.sv
+----------------Focused Condition View-------------------
+Line       8 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       8 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         2         9    18.18%
+
+================================Statement Details================================
+
+Statement Coverage for instance /apb_sequence_item_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_sequence_item.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                    ***0***     
+    8               4                    ***0***     
+    8               5                    ***0***     
+    8               6                       2979     
+    8               7                    ***0***     
+    8               8                    ***0***     
+    8               9                    ***0***     
+    8              10                    ***0***     
+    24              1                      11933     
+
+=================================================================================
+=== Instance: /apb_reg_sequences_pkg
+=== Design Unit: work.apb_reg_sequences_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       134        30       104    22.38%
+
+================================Branch Details================================
+
+Branch Coverage for instance /apb_reg_sequences_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_reg_sequences_pkg.sv
+------------------------------------IF Branch------------------------------------
+    19                                   ***0***     Count coming in to IF
+    19              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    19                                   ***0***     Count coming in to IF
+    19              2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    19                                   ***0***     Count coming in to IF
+    19              3                    ***0***     
+    19              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    19                                   ***0***     Count coming in to IF
+    19              5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    19                                   ***0***     Count coming in to IF
+    19              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                   ***0***     Count coming in to IF
+    73              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                   ***0***     Count coming in to IF
+    73              2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                   ***0***     Count coming in to IF
+    73              3                    ***0***     
+    73              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                   ***0***     Count coming in to IF
+    73              5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    73                                   ***0***     Count coming in to IF
+    73              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                   ***0***     Count coming in to IF
+    91              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                   ***0***     Count coming in to IF
+    91              2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                   ***0***     Count coming in to IF
+    91              3                    ***0***     
+    91              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                   ***0***     Count coming in to IF
+    91              5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    91                                   ***0***     Count coming in to IF
+    91              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                  ***0***     Count coming in to IF
+    109             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                  ***0***     Count coming in to IF
+    109             2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                  ***0***     Count coming in to IF
+    109             3                    ***0***     
+    109             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                  ***0***     Count coming in to IF
+    109             5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    109                                  ***0***     Count coming in to IF
+    109             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    127                                  ***0***     Count coming in to IF
+    127             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    127                                  ***0***     Count coming in to IF
+    127             2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    127                                  ***0***     Count coming in to IF
+    127             3                    ***0***     
+    127             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    127                                  ***0***     Count coming in to IF
+    127             5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    127                                  ***0***     Count coming in to IF
+    127             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    145                                  ***0***     Count coming in to IF
+    145             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    145                                  ***0***     Count coming in to IF
+    145             2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    145                                  ***0***     Count coming in to IF
+    145             3                    ***0***     
+    145             4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    145                                  ***0***     Count coming in to IF
+    145             5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    145                                  ***0***     Count coming in to IF
+    145             6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    165                                      500     Count coming in to IF
+    165             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    194                                    13500     Count coming in to IF
+    194             1                    ***0***     
+                                           13500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    195                                  ***0***     Count coming in to IF
+    195             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    206                                    13500     Count coming in to IF
+    206             1                    ***0***     
+                                           13500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    207                                    13500     Count coming in to IF
+    207             1                    ***0***     
+                                           13500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    208                                    13500     Count coming in to IF
+    208             1                    ***0***     
+                                           13500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    211                                    13500     Count coming in to IF
+    211             1                       5000     
+                                            8500     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    212                                     5000     Count coming in to IF
+    212             1                    ***0***     
+                                            5000     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    228                                      500     Count coming in to IF
+    228             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    229                                  ***0***     Count coming in to IF
+    229             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    232                                      500     Count coming in to IF
+    232             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    233                                      500     Count coming in to IF
+    233             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    234                                      500     Count coming in to IF
+    234             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    235                                      500     Count coming in to IF
+    235             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    236                                      500     Count coming in to IF
+    236             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    271                                      500     Count coming in to IF
+    271             1                    ***0***     
+    274             1                        500     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    272                                  ***0***     Count coming in to IF
+    272             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    276                                      500     Count coming in to IF
+    276             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    325                                      500     Count coming in to IF
+    325             1                    ***0***     
+    328             1                        500     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    326                                  ***0***     Count coming in to IF
+    326             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    330                                      500     Count coming in to IF
+    330             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    351                                      500     Count coming in to IF
+    351             1                    ***0***     
+    354             1                        500     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    352                                  ***0***     Count coming in to IF
+    352             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    356                                      500     Count coming in to IF
+    356             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    370                                      500     Count coming in to IF
+    370             1                    ***0***     
+    373             1                        500     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    371                                  ***0***     Count coming in to IF
+    371             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    375                                      500     Count coming in to IF
+    375             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    397                                      500     Count coming in to IF
+    397             1                    ***0***     
+    400             1                        500     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    398                                  ***0***     Count coming in to IF
+    398             1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    402                                      500     Count coming in to IF
+    402             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    421                                      500     Count coming in to IF
+    421             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    425                                      500     Count coming in to IF
+    425             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    425                                  ***0***     Count coming in to IF
+    425             2                    ***0***     
+    425             3                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    429                                      500     Count coming in to IF
+    429             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    438                                      500     Count coming in to IF
+    438             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    441                                      500     Count coming in to IF
+    441             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    450                                      500     Count coming in to IF
+    450             1                    ***0***     
+                                             500     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      13         0        13     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /apb_reg_sequences_pkg --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_reg_sequences_pkg.sv
+----------------Focused Condition View-------------------
+Line       19 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       19 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       73 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       73 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       91 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       91 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       109 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       109 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       127 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       127 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       145 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       145 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       228 Item    1  (dummy_st != UVM_IS_OK)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+               Input Term   Covered  Reason for no coverage   Hint
+              -----------  --------  -----------------------  --------------
+  (dummy_st != UVM_IS_OK)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target                 Non-masking condition(s)      
+ ---------  ---------  --------------------       -------------------------     
+  Row   1:          1  (dummy_st != UVM_IS_OK)_0  -                             
+  Row   2:    ***0***  (dummy_st != UVM_IS_OK)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     170        87        83    51.17%
+
+================================Statement Details================================
+
+Statement Coverage for instance /apb_reg_sequences_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_reg_sequences_pkg.sv
+    19              1                    ***0***     
+    19              2                    ***0***     
+    19              3                    ***0***     
+    19              4                    ***0***     
+    19              5                    ***0***     
+    19              6                    ***0***     
+    19              7                    ***0***     
+    19              8                    ***0***     
+    19              9                    ***0***     
+    19             10                    ***0***     
+    30              1                        500     
+    73              1                    ***0***     
+    73              2                    ***0***     
+    73              3                    ***0***     
+    73              4                    ***0***     
+    73              5                    ***0***     
+    73              6                        100     
+    73              7                    ***0***     
+    73              8                    ***0***     
+    73              9                    ***0***     
+    73             10                    ***0***     
+    76              1                        100     
+    81              1                        100     
+    91              1                    ***0***     
+    91              2                    ***0***     
+    91              3                    ***0***     
+    91              4                    ***0***     
+    91              5                    ***0***     
+    91              6                        100     
+    91              7                    ***0***     
+    91              8                    ***0***     
+    91              9                    ***0***     
+    91             10                    ***0***     
+    94              1                        100     
+    99              1                        100     
+    109             1                    ***0***     
+    109             2                    ***0***     
+    109             3                    ***0***     
+    109             4                    ***0***     
+    109             5                    ***0***     
+    109             6                        100     
+    109             7                    ***0***     
+    109             8                    ***0***     
+    109             9                    ***0***     
+    109            10                    ***0***     
+    112             1                        100     
+    117             1                        100     
+    127             1                    ***0***     
+    127             2                    ***0***     
+    127             3                    ***0***     
+    127             4                    ***0***     
+    127             5                    ***0***     
+    127             6                        100     
+    127             7                    ***0***     
+    127             8                    ***0***     
+    127             9                    ***0***     
+    127            10                    ***0***     
+    130             1                        100     
+    135             1                        100     
+    145             1                    ***0***     
+    145             2                    ***0***     
+    145             3                    ***0***     
+    145             4                    ***0***     
+    145             5                    ***0***     
+    145             6                        100     
+    145             7                    ***0***     
+    145             8                    ***0***     
+    145             9                    ***0***     
+    145            10                    ***0***     
+    148             1                        100     
+    153             1                        100     
+    165             1                    ***0***     
+    191             1                      13500     
+    192             1                      13500     
+    193             1                      13500     
+    195             1                    ***0***     
+    196             1                      13500     
+    203             1                      13500     
+    206             1                    ***0***     
+    207             1                    ***0***     
+    208             1                    ***0***     
+    212             1                    ***0***     
+    227             1                        500     
+    229             1                    ***0***     
+    232             1                    ***0***     
+    233             1                    ***0***     
+    234             1                    ***0***     
+    235             1                    ***0***     
+    236             1                    ***0***     
+    255             1                        500     
+    260             1                        500     
+    261             1                        500     
+    262             1                        500     
+    263             1                        500     
+    269             1                        500     
+    272             1                    ***0***     
+    275             1                        500     
+    276             1                    ***0***     
+    279             1                        500     
+    280             1                        500     
+    281             1                        500     
+    287             1                        500     
+    288             1                        500     
+    289             1                        500     
+    290             1                        500     
+    295             1                        500     
+    304             1                        500     
+    306             1                        500     
+    307             1                        500     
+    308             1                        500     
+    313             1                        500     
+    315             1                        500     
+    316             1                        500     
+    317             1                        500     
+    323             1                        500     
+    326             1                    ***0***     
+    329             1                        500     
+    330             1                    ***0***     
+    333             1                        500     
+    334             1                        500     
+    335             1                        500     
+    340             1                        500     
+    342             1                        500     
+    343             1                        500     
+    344             1                        500     
+    349             1                        500     
+    352             1                    ***0***     
+    355             1                        500     
+    356             1                    ***0***     
+    359             1                        500     
+    360             1                        500     
+    361             1                        500     
+    368             1                        500     
+    371             1                    ***0***     
+    374             1                        500     
+    375             1                    ***0***     
+    378             1                        500     
+    381             1                        500     
+    382             1                        500     
+    384             1                        500     
+    387             1                        500     
+    389             1                        500     
+    395             1                        500     
+    398             1                    ***0***     
+    401             1                        500     
+    402             1                    ***0***     
+    405             1                        500     
+    408             1                        500     
+    410             1                        500     
+    413             1                        500     
+    415             1                        500     
+    421             1                    ***0***     
+    424             1                        500     
+    425             1                    ***0***     
+    428             1                        500     
+    429             1                    ***0***     
+    432             1                        500     
+    433             1                        500     
+    434             1                        500     
+    437             1                        500     
+    438             1                    ***0***     
+    441             1                    ***0***     
+    444             1                        500     
+    445             1                        500     
+    446             1                        500     
+    449             1                        500     
+    450             1                    ***0***     
+    451             1                        500     
+    452             1                        500     
+    456             1                        500     
+
+=================================================================================
+=== Instance: /apb_adapter
+=== Design Unit: work.apb_adapter
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        24         9        15    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /apb_adapter
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_adapter.sv
+------------------------------------IF Branch------------------------------------
+    12                                   ***0***     Count coming in to IF
+    12              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    12                                   ***0***     Count coming in to IF
+    12              2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    12                                   ***0***     Count coming in to IF
+    12              3                    ***0***     
+    12              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    12                                   ***0***     Count coming in to IF
+    12              5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    12                                   ***0***     Count coming in to IF
+    12              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    30                                      2979     Count coming in to IF
+    30              1                       1479     
+                                            1500     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    34                                      2979     Count coming in to IF
+    34              1                    ***0***     
+                                            2979     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    48                                      2979     Count coming in to IF
+    48              1                    ***0***     
+                                            2979     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    49                                   ***0***     Count coming in to IF
+    49              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    52                                      2979     Count coming in to IF
+    52              1                       1479     
+    52              2                       1500     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    54                                      2979     Count coming in to IF
+    54              1                       1479     
+    54              2                       1500     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    57                                      2979     Count coming in to IF
+    57              1                    ***0***     
+                                            2979     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       3         1         2    33.33%
+
+================================Condition Details================================
+
+Condition Coverage for instance /apb_adapter --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_adapter.sv
+----------------Focused Condition View-------------------
+Line       12 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       12 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       30 Item    1  (rw.kind == UVM_WRITE)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      26        12        14    46.15%
+
+================================Statement Details================================
+
+Statement Coverage for instance /apb_adapter --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/RAL_MODEL/apb_adapter.sv
+    12              1                    ***0***     
+    12              2                    ***0***     
+    12              3                    ***0***     
+    12              4                    ***0***     
+    12              5                    ***0***     
+    12              6                    ***0***     
+    12              7                    ***0***     
+    12              8                    ***0***     
+    12              9                    ***0***     
+    12             10                    ***0***     
+    15              1                          1     
+    16              1                          1     
+    17              1                          1     
+    26              1                       2979     
+    28              1                       2979     
+    29              1                       2979     
+    31              1                       1479     
+    34              1                    ***0***     
+    36              1                       2979     
+    49              1                    ***0***     
+    50              1                    ***0***     
+    52              1                       2979     
+    53              1                       2979     
+    54              1                       2979     
+    55              1                       2979     
+    57              1                    ***0***     
+
+=================================================================================
+=== Instance: /my_scoreboard_pkg
+=== Design Unit: work.my_scoreboard_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        16        10         6    62.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_scoreboard_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_scoreboard.sv
+------------------------------------IF Branch------------------------------------
+    29                                         1     Count coming in to IF
+    29              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    31                                         1     Count coming in to IF
+    31              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    32                                   ***0***     Count coming in to IF
+    32              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    48                                      2979     Count coming in to IF
+    48              1                       2978     
+                                               1     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    49                                      2978     Count coming in to IF
+    49              1                       1479     
+    52              1                       1499     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    53                                      1499     Count coming in to IF
+    53              1                       1491     
+    56              1                          8     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    54                                      1491     Count coming in to IF
+    54              1                    ***0***     
+                                            1491     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    58                                         8     Count coming in to IF
+    58              1                          8     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       4         2         2    50.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /my_scoreboard_pkg --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_scoreboard.sv
+----------------Focused Condition View-------------------
+Line       48 Item    1  (this.seq_item.psel && this.seq_item.penable && this.APB_vif.presetn)
+Condition totals: 1 of 3 input terms covered = 33.33%
+
+             Input Term   Covered  Reason for no coverage   Hint
+            -----------  --------  -----------------------  --------------
+     this.seq_item.psel         N  '_0' not hit             Hit '_0'
+  this.seq_item.penable         N  '_0' not hit             Hit '_0'
+   this.APB_vif.presetn         Y
+
+     Rows:       Hits  FEC Target               Non-masking condition(s)      
+ ---------  ---------  --------------------     -------------------------     
+  Row   1:    ***0***  this.seq_item.psel_0     -                             
+  Row   2:          1  this.seq_item.psel_1     (this.seq_item.penable && this.APB_vif.presetn)
+  Row   3:    ***0***  this.seq_item.penable_0  this.seq_item.psel            
+  Row   4:          1  this.seq_item.penable_1  (this.seq_item.psel && this.APB_vif.presetn)
+  Row   5:          1  this.APB_vif.presetn_0   (this.seq_item.psel && this.seq_item.penable)
+  Row   6:          1  this.APB_vif.presetn_1   (this.seq_item.psel && this.seq_item.penable)
+
+----------------Focused Condition View-------------------
+Line       53 Item    1  (this.seq_item.prdata == this.Assoc_Array[this.seq_item.paddr])
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      18        14         4    77.77%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_scoreboard_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_scoreboard.sv
+    10              1                    ***0***     
+    10              2                    ***0***     
+    10              3                          1     
+    20              1                          1     
+    21              1                          1     
+    22              1                          1     
+    23              1                          1     
+    28              1                          1     
+    29              1                          1     
+    32              1                    ***0***     
+    38              1                          1     
+    39              1                          1     
+    45              1                          1     
+    46              1                       2980     
+    47              1                       2979     
+    50              1                       1479     
+    54              1                    ***0***     
+    58              1                          8     
+
+=================================================================================
+=== Instance: /my_monitor_pkg
+=== Design Unit: work.my_monitor_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         6         4    60.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_monitor_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_monitor.sv
+------------------------------------IF Branch------------------------------------
+    24                                         1     Count coming in to IF
+    24              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    27                                   ***0***     Count coming in to IF
+    27              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                      8951     Count coming in to IF
+    60              1                       2979     
+                                            5972     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    67                                      2979     Count coming in to IF
+    67              1                       1479     
+    72              1                       1500     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         2         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /my_monitor_pkg --
+
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_monitor.sv
+----------------Focused Condition View-------------------
+Line       60 Item    1  (this.APB_vif.psel && this.APB_vif.penable)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      21        18         3    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_monitor_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_monitor.sv
+    10              1                    ***0***     
+    10              2                    ***0***     
+    10              3                          1     
+    17              1                          1     
+    18              1                          1     
+    23              1                          1     
+    24              1                          1     
+    27              1                    ***0***     
+    56              1                          1     
+    57              1                       8952     
+    58              1                       8952     
+    61              1                       2979     
+    62              1                       2979     
+    63              1                       2979     
+    64              1                       2979     
+    65              1                       2979     
+    69              1                       1479     
+    70              1                       1479     
+    75              1                       1500     
+    76              1                       1500     
+    77              1                       1500     
+
+=================================================================================
+=== Instance: /my_driver_pkg
+=== Design Unit: work.my_driver_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12         6         6    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_driver_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_driver.sv
+------------------------------------IF Branch------------------------------------
+    23                                         1     Count coming in to IF
+    23              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                         1     Count coming in to IF
+    26              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    27                                   ***0***     Count coming in to IF
+    27              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    44                                      2979     Count coming in to IF
+    44              1                       1479     
+    48              1                       1500     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    70                                      1479     Count coming in to IF
+    70              1                       1479     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    90                                      1500     Count coming in to IF
+    90              1                       1500     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      42        39         3    92.85%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_driver_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_driver.sv
+    10              1                    ***0***     
+    10              2                    ***0***     
+    10              3                          1     
+    16              1                          1     
+    21              1                          1     
+    23              1                          1     
+    24              1                          1     
+    27              1                    ***0***     
+    36              1                          1     
+    37              1                          1     
+    38              1                          1     
+    39              1                          1     
+    40              1                          1     
+    41              1                          1     
+    42              1                          1     
+    43              1                       2980     
+    46              1                       1479     
+    50              1                       1500     
+    52              1                       2979     
+    63              1                       1479     
+    64              1                       1479     
+    65              1                       1479     
+    66              1                       1479     
+    67              1                       1479     
+    68              1                       1479     
+    69              1                       1479     
+    70              1                       1479     
+    71              1                       1479     
+    72              1                       1479     
+    73              1                       1479     
+    78              1                       1500     
+    79              1                       1500     
+    80              1                       1500     
+    81              1                       1500     
+    83              1                       1500     
+    84              1                       1500     
+    86              1                       1500     
+    88              1                       1500     
+    89              1                       1500     
+    90              1                       1500     
+    91              1                       1500     
+    92              1                       1500     
+
+=================================================================================
+=== Instance: /my_sequencer_pkg
+=== Design Unit: work.my_sequencer_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_sequencer_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/NO_CHANGE/my_sequencer.sv
+------------------------------------IF Branch------------------------------------
+    19                                         1     Count coming in to IF
+    19              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         4         2    66.66%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_sequencer_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/NO_CHANGE/my_sequencer.sv
+    10              1                    ***0***     
+    10              2                    ***0***     
+    10              3                          2     
+    13              1                          1     
+    18              1                          1     
+    19              1                          1     
+
+=================================================================================
+=== Instance: /my_agent_pkg
+=== Design Unit: work.my_agent_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_agent_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/NO_CHANGE/my_agent.sv
+------------------------------------IF Branch------------------------------------
+    29                                         1     Count coming in to IF
+    29              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         9         2    81.81%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_agent_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/NO_CHANGE/my_agent.sv
+    13              1                    ***0***     
+    13              2                    ***0***     
+    13              3                          1     
+    22              1                          1     
+    27              1                          1     
+    29              1                          1     
+    31              1                          1     
+    32              1                          1     
+    33              1                          1     
+    39              1                          1     
+    40              1                          1     
+
+=================================================================================
+=== Instance: /my_env_pkg
+=== Design Unit: work.my_env_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         3         5    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_env_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_env.sv
+------------------------------------IF Branch------------------------------------
+    40                                         1     Count coming in to IF
+    40              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                         1     Count coming in to IF
+    51              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    52                                   ***0***     Count coming in to IF
+    52              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    76                                         1     Count coming in to IF
+    76              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        12         3    80.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_env_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_env.sv
+    15              1                    ***0***     
+    15              2                    ***0***     
+    15              3                          1     
+    30              1                          1     
+    39              1                          1     
+    40              1                          1     
+    42              1                          1     
+    43              1                          1     
+    48              1                          1     
+    52              1                    ***0***     
+    66              1                          1     
+    67              1                          1     
+    73              1                          1     
+    74              1                          1     
+    76              1                          1     
+
+=================================================================================
+=== Instance: /my_test_pkg
+=== Design Unit: work.my_test_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        20         9        11    45.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /my_test_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_test.sv
+------------------------------------IF Branch------------------------------------
+    48                                         1     Count coming in to IF
+    48              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    65                                         1     Count coming in to IF
+    65              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    66                                   ***0***     Count coming in to IF
+    66              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    119                                        1     Count coming in to IF
+    119             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    121                                        1     Count coming in to IF
+    121             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    124                                        1     Count coming in to IF
+    124             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    129                                        1     Count coming in to IF
+    129             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    163                                      100     Count coming in to IF
+    163             1                    ***0***     
+                                             100     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    170                                        1     Count coming in to IF
+    170             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    175                                        1     Count coming in to IF
+    175             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      59        49        10    83.05%
+
+================================Statement Details================================
+
+Statement Coverage for instance /my_test_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File D:/IC_2025/Hassan_Verification_2025_R1/APB_RAL/MY_APB_PROJ/APB_RAL_V2/UVM_ENV/my_test.sv
+    19              1                    ***0***     
+    19              2                    ***0***     
+    19              3                          2     
+    36              1                          1     
+    46              1                          1     
+    47              1                          1     
+    48              1                          1     
+    53              1                          1     
+    54              1                          1     
+    55              1                          1     
+    58              1                          1     
+    59              1                          1     
+    62              1                          1     
+    66              1                    ***0***     
+    84              1                          1     
+    85              1                          1     
+    86              1                          1     
+    97              1                          1     
+    98              1                          1     
+    119             1                    ***0***     
+    120             1                          1     
+    121             1                    ***0***     
+    124             1                    ***0***     
+    125             1                          1     
+    126             1                          5     
+    126             2                          5     
+    127             1                          1     
+    128             1                          2     
+    128             2                          2     
+    129             1                    ***0***     
+    133             1                          1     
+    134             1                        100     
+    137             1                        100     
+    139             1                        100     
+    140             1                        100     
+    141             1                        100     
+    144             1                        100     
+    145             1                        100     
+    146             1                        100     
+    149             1                        100     
+    150             1                        100     
+    151             1                        100     
+    154             1                        100     
+    155             1                        100     
+    156             1                        100     
+    159             1                        100     
+    160             1                        100     
+    161             1                        100     
+    163             1                    ***0***     
+    166             1                        100     
+    170             1                    ***0***     
+    171             1                          1     
+    172             1                          5     
+    172             2                          5     
+    173             1                          1     
+    174             1                          2     
+    174             2                          2     
+    175             1                    ***0***     
+    177             1                          1     
+
+
+Total Coverage By Instance (filtered view): 52.10%
+

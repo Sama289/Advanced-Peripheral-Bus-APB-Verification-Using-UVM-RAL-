@@ -1,0 +1,2 @@
+var g_data = {"20":[19,"APB_vif",1],"21":[19,"DUT",1],"19":[-1,"top",1],"23":[-1,"apb_regs_pkg",1],"98":[-1,"apb_reg_block_pkg",1],"99":[-1,"apb_sequence_item_pkg",1],"100":[-1,"apb_reg_sequences_pkg",1],"101":[-1,"apb_adapter",1],"102":[-1,"my_scoreboard_pkg",1],"103":[-1,"my_monitor_pkg",1],"104":[-1,"my_driver_pkg",1],"105":[-1,"my_sequencer_pkg",1],"106":[-1,"my_agent_pkg",1],"107":[-1,"my_env_pkg",1],"108":[-1,"my_test_pkg",1]};
+processInstLinks(g_data);
