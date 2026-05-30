@@ -1,1 +1,21 @@
-*.java linguist-generated=true
+# =========================
+# SYSTEMVERILOG (REAL WORK)
+# =========================
+*.sv linguist-language=SystemVerilog
+*.svh linguist-language=SystemVerilog
+*.v  linguist-language=SystemVerilog
+
+# =========================
+# TCL (REAL WORK)
+# =========================
+*.tcl linguist-language=Tcl
+
+# =========================
+# GENERATED REPORTS (IGNORE FROM STATS)
+# =========================
+V2_Optimized_CDV_Environment/Coverage_reports/html_report/** linguist-generated=true
+
+# fallback safety
+*.js linguist-generated=true
+*.html linguist-generated=true
+*.css linguist-generated=true
