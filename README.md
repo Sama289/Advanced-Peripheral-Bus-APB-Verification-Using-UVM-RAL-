@@ -70,3 +70,6 @@ This repository serves both as:
 
 1. A practical exploration of UVM RAL concepts and methodologies.
 2. A progressively evolving coverage-driven APB verification project that demonstrates verification best practices, reusable architecture, and scalable UVM design techniques.
+
+# Acknowledgment 
+This project was completed under the supervision and review of Eng. Hassan Khaled
